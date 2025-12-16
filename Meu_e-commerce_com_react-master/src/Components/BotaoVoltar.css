@@ -1,0 +1,13 @@
+.botao-voltar {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .botao-voltar:hover {
+    background: #084298;
+  }
+  

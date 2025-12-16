@@ -1,0 +1,49 @@
+:root {
+  --color-primary: #003366;
+  --color-accent: #0077cc;
+  --color-highlight: #f46a6a;
+  --color-text: #333333;
+  --color-bg: #ffffff;
+  --font-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.6;
+}
+
+/* Exemplo de estilos para header/navigation/hero etc */
+.header {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+.navigation {
+  background-color: var(--color-accent);
+  text-align: center;
+  padding: 1rem 0;
+}
+.navigation a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+.services .service {
+  background: #e9f3fb;
+  padding: 1.5rem;
+  border-left: 5px solid var(--color-highlight);
+}
+/* ... e assim por diante */
